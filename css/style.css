@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Bree Serif", serif !important;
+}
+p {
+	font-family: "Zen Antique Soft", serif !important;
+}
+
+nav {
+	font-size: 30px;
+	background: rgb(105, 78, 52);
+	background: linear-gradient(
+		90deg,
+		rgba(105, 78, 52, 1) 0%,
+		rgba(105, 78, 52, 1) 44%,
+		rgba(73, 47, 4, 1) 78%
+	);
+	font-family: "Bree Serif", serif;
+}
+
+ul {
+	float: right;
+}
+ul li {
+	padding: 3px;
+}
+.icon {
+	width: 70px;
+	border: 1px solid #131312;
+	margin: 3px;
+}
+.icon-small {
+	display: none;
+	width: 40px;
+	border: 1px solid #131312;
+	margin: 4px;
+}
+.main-picture {
+	border-radius: 20px !important	;
+	filter: drop-shadow(20px 20px 20px #492f04) contrast(80%);
+}
+.active {
+	background: #d8bf97;
+	border-radius: 50px;
+}
+
+.navbar-brand {
+	width: 100px;
+}
+.home-container {
+	text-align: center;
+	color: #d4ba90;
+	background: repeating-linear-gradient(
+		180deg,
+		#46300d 1px,
+		#694e34 40px,
+		#492f04 40px
+	);
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.card {
+	width: 100%;
+	padding: 0;
+	margin: 5px;
+}
+.card {
+	background: #d8bf97 !important;
+	color: #492f04 !important;
+	font-size: 25px;
+	font-family: "Roboto", sans-serif !important;
+}
+.card h5 {
+	font-size: 30px;
+}
+.btn {
+	color: #d8bf97 !important;
+	background: #46300d !important;
+	border: none !important;
+}
+.content-picture {
+	max-width: 95%;
+	border-radius: 100px;
+}
+footer {
+	background: rgb(105, 78, 52);
+	background: linear-gradient(
+		90deg,
+		rgba(105, 78, 52, 1) 0%,
+		rgba(105, 78, 52, 1) 44%,
+		rgba(73, 47, 4, 1) 78%
+	);
+	min-height: 50px;
+}
+.footer {
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.footer a {
+	font-size: 20px;
+	color: #d4ba90;
+}
+@media screen and (max-width: 500px) {
+	.logo {
+		width: 20%;
+	}
+	.icon {
+		display: none;
+	}
+	.icon-small {
+		display: block;
+		padding: 1px;
+		border: 2px solid black;
+	}
+}
